@@ -1,0 +1,210 @@
+body{
+    background-image: url(https://media.istockphoto.com/illustrations/spider-web-seamless-hand-drawn-pattern-white-black-orange-background-illustration-id1203673164);
+}
+.box{
+    display:flex;
+    background-image: linear-gradient(red, orange);
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    border:5px solid white;
+    border-radius: 30px;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    animation: growth2 ease-in 1s;
+}
+.title{
+    height: 100px;
+    width: 100%;
+}
+img{
+    height:100px;
+}
+/*.box-child{
+    position: absolute;
+    
+    background-color:rgba(100, 36, 116, 0.3);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}*/
+.trailer{
+    height: 409px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(https://photo-cms-nghenhinvietnam.zadn.vn/w700/Uploaded/2022/cadwpqrnd/2021_11_28/maxresdefault_30__bela.jpg);
+    border: 10px outset rgb(134, 118, 118);
+    border-radius: 30px;
+    background-size: contain;
+    
+}
+.tt{
+    width: 100%;
+    height: 60px;
+    border: 10px outset rgb(175, 129, 129);
+    margin-top: 110px;
+    background-image: linear-gradient(black,gray);
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+.pharagraph{
+        
+        
+        height: 500px;
+        width: 32%;
+        border: solid #E29A2C;
+        background-color: aliceblue;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding: 20px;
+        overflow: scroll;
+
+}
+.baovan{
+    display: flex;
+    flex-direction: row;
+}
+.slide{
+    height: 540px;
+    width: 33%;
+    border: solid rgb(75, 70, 70);
+    background-color: white;
+}
+
+ul{
+    display:flex;
+    
+
+}
+li{
+    font-size: 25px;
+    color: rgb(238, 229, 229);
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#d{
+    font-size: 20px;
+}
+.bao2{
+    display: flex;
+}
+#gioi1{
+    height: 90px;
+    width: 33%;
+    padding: 2vh;
+    text-align:center;
+    font-size: 30px;
+    box-sizing: border-box;
+    border: 10px outset rgb(243, 241, 241);
+    background-image: linear-gradient(rgb(255, 251, 251),gray);
+}
+#gioi2{
+    height: 90px;
+    width: 33%;
+    font-size: 30px;
+    padding: 2vh;
+    text-align:center;
+    color:white;
+    box-sizing: border-box;
+    border: 10px outset rgb(175, 129, 129);
+    background-image: linear-gradient(black,gray);
+}
+#gioi{
+    
+    height: 82px;
+    width: 35%;
+    background-color: orangered;
+    border:inset yellow;
+    border-radius: 25px;
+    padding: auto;
+}
+#tc2{
+    color:rgb(238, 229, 229);
+    font-size: 30px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+a:hover{
+    
+    font-size: 32px;
+}
+
+#d::first-line{
+   color:orangered;
+   font-size: 20px;
+}
+.layout2{
+    height: 400px;
+    width: 33%;
+    align-items: flex-end;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: pink;
+    border-top: 10px dashed;
+    border-bottom: 20px outset rgb(165, 22, 22);
+}
+.chart{
+    width: 50px;
+    height: var(--percent);
+    background-image: linear-gradient(black, yellow);
+    color: white;
+    text-align: center;
+    animation: growth ease-in 1s;
+}
+@keyframes growth {
+    from{
+        opacity: 0;
+        height: calc(var(--percent)*0.5);
+    }
+    to{
+        opacity: 1;
+        height: var(--percent);
+    }
+}
+@keyframes growth2{
+    from{
+        opacity: 0;
+        width: 100px;
+    }
+    to{
+        opacity: 1;
+        width: 100%;
+    }
+}
+.a{
+    background-image: url(https://ss-images.saostar.vn/pc/1597630581726/1.png);
+    background-size: cover;
+}
+.b{
+    background-image: url(https://static1.dienanh.net/upload/202112/efbf6250-11d8-4365-b429-05762cc1bf5b.jpeg);
+    background-size: contain;
+}
+.boc3{
+    height:470px;
+    width:100%;
+    background-color: beige;
+}
+#tenbd{
+    background-image: linear-gradient(red,orange);
+    font-size: 30px;
+}
+.box2{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.daodien{
+    width: 30%;
+    height: 40%S;
+}
